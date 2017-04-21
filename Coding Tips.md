@@ -109,7 +109,7 @@ public void foo()
 Bad:
 ```java
 public boolean do_stuff() {
-    if (this) {
+    if (this_thing) {
         if (and_this) {
             if (also_this) {
                 if (aswell_this) {
@@ -132,7 +132,7 @@ public boolean do_stuff() {
 Better:
 ```java
 public boolean do_stuff() {
-    if (this && and_this && also_this && aswell_this) {
+    if (this_thing && and_this && also_this && aswell_this) {
         return true
     }
     return false               
