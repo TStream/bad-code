@@ -95,7 +95,7 @@ public void foo()
  
 
 ### **Code Grouping:**
-* Certain tasks require more than one line of code. In this case it is a good idea to separate these blocks of code with some spaces. Adding a short one line comment at the beginning of each block of code can help visual the separation.
+* Certain tasks require more than one line of code. In this case it is a good idea to separate these blocks of code with some spaces. Adding a short one line comment at the beginning of each block of code can help visualize the separation.
 
 ### **No DRY Code:**
 * DRY = Don’t Repeat Yourself, DIE= Duplication Is Evil
