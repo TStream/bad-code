@@ -81,7 +81,7 @@ public void foo()
         * underscores: Underscores between words, like: `some_random_function()`
 * if you are starting a project form scratch pick a style and stick with it
 * if you are working with others, agree on a style and stick with it
-* if you are working on someone else’s code, stay with there style
+* if you are working on someone else’s code, stick with thier style
 * No best style. Just be consistent.
 
 ### **Naming:** 
