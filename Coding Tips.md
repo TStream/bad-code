@@ -109,10 +109,10 @@ public void foo()
 Bad:
 ```java
 public boolean do_stuff() {
-    if (maybe) {
-        if (or_maybe) {
-            if (else_maybe) {
-                if (maybe_this) {
+    if (this) {
+        if (and_this) {
+            if (also_this) {
+                if (aswell_this) {
                     return true;
                 } else {
                     return false;
@@ -132,17 +132,7 @@ public boolean do_stuff() {
 Better:
 ```java
 public boolean do_stuff() {
-    // ! = NOT. ex: !True = False
-    if (!maybe) {
-        return false;
-    }
-    if (!or_maybe) {
-        return false
-    }
-    if (!else_maybe) {
-        return false
-    }
-    if (maybe_this) {
+    if (this && and_this && also_this && aswell_this) {
         return true
     }
     return false               
